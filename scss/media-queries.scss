@@ -1,0 +1,89 @@
+@media(max-width: 1024px) {
+  .container {
+    .heading {
+      font-size: 2.1rem;
+    }
+
+    .text {
+      font-size: 0.8rem;
+      line-height: 1.4rem;
+      width: 11.3rem;
+    }
+
+    .btn {
+      padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+      font-size: 0.8rem;
+    }
+
+    .sedan,
+    .suv,
+    .luxury {
+      padding: 1.6rem;
+    }
+  }
+}
+
+@media(max-width: 750px) {
+  .container {
+    .heading {
+      font-size: 1.9rem;
+    }
+
+    .text {
+      font-size: 0.7rem;
+      line-height: 1.2rem;
+      width: 7rem;
+    }
+
+    .btn {
+      padding: 0.3rem 1.3rem 0.3rem 1.3rem;
+      font-size: 0.7rem;
+    }
+  }
+}
+
+@media(max-width:500px) {
+  body {
+    flex-direction: column;
+  }
+
+  .container {
+    flex-direction: column;
+
+    .sedan {
+      border-radius: 0.6rem 0.6rem 0 0;
+    }
+
+    .luxury {
+      border-radius: 0 0 0.6rem 0.6rem;
+    }
+
+    .heading {
+      font-size: 2.5rem;
+    }
+
+    .text {
+      width: 14.1rem;
+      font-size: 0.94rem;
+      line-height: 1.57rem;
+    }
+
+    .btn {
+      font-size: 0.94rem;
+      margin-top: 1.7rem;
+      padding: 0.8rem 1.8rem 0.8rem 1.8rem;
+    }
+
+    .sedan,
+    .suv,
+    .luxury {
+      padding: 3rem;
+    }
+  }
+
+  footer {
+    position: relative;
+    margin-top: 1.5rem;
+    font-size: 0.6rem;
+  }
+}
